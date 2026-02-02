@@ -1,0 +1,71 @@
+{
+  "task_configuration": {
+    "task_type": "face_swap_with_text_to_image",
+    "priority": "high",
+    "output_resolution": {
+      "width": 1200,
+      "height": 1200,
+      "aspect_ratio": "1:1"
+    }
+  },
+  "input_reference": {
+    "source_type": "user_upload",
+    "image_id": "source_face_01",
+    "processing_instruction": "Replace generated face with source_face_01. Rigorously preserve facial identity, structure, and details. Adapt skin tone to match dramatic night lighting."
+  },
+  "scene_composition": {
+    "subject": {
+      "demographics": "Main character",
+      "expression": "Cool, indifferent, chin slightly raised",
+      "action": "Taking a selfie, holding cigarette with lips, raising gloved hand to neck",
+      "apparel": {
+        "outerwear": {
+          "item": "Faux fur coat",
+          "texture": "Thick, plush, richly textured",
+          "pattern": "Leopard print (black/brown spots on beige/gold)"
+        },
+        "hands": {
+          "item": "Leather gloves",
+          "color": "Black",
+          "details": "Subtle shine, thick contrasting stitching on back of hand"
+        }
+      },
+      "accessories": [
+        "White wired earbuds hanging loosely",
+        "Conventional cigarette with orange filter"
+      ]
+    },
+    "environment": {
+      "setting": "Outdoor urban night scene",
+      "background_elements": [
+        "Deep black night sky",
+        "Curved street lamp post (lit)",
+        "Silhouette of bare tree",
+        "Blurred distant city lights",
+        "Neon signs"
+      ],
+      "lighting": {
+        "type": "Mixed dramatic artificial",
+        "main_source": "Overhead street lamp (warm yellow/orange)",
+        "shadows": "Strong, deep facial shadows",
+        "highlights": "Reflective shine on leather gloves, texture emphasis on fur"
+      },
+      "atmosphere": "Night urban grunge, gritty, saturated colors"
+    }
+  },
+  "technical_parameters": {
+    "camera_settings": {
+      "angle": "Extreme low-angle (chest height pointing up)",
+      "lens_type": "Wide-angle 24mm",
+      "iso_level": "High ISO (visible grain)"
+    },
+    "artistic_style": {
+      "vibe": "Night mobile photography / Flash selfie",
+      "aesthetic": "Snapshot realism, raw"
+    }
+  },
+  "prompt_payload": {
+    "positive_prompt": "Extreme low-angle selfie, 24mm lens, night urban grunge. Main character wearing a voluminous leopard-print faux fur coat and black leather gloves with thick stitching. A cigarette with orange filter in lips. White wired earbuds. Hand raised to chin. Dramatic warm street lamp lighting from above, strong shadows, high ISO grain. Background: black sky, bare tree silhouette, blurred city neon.",
+    "negative_prompt": "daylight, sun, bright sky, overcast sky, plain fur coats, solid-color coat, text, watermark, signature, deformed hands, extra fingers, bad anatomy, cartoon, anime style, 3d render, fake eyes, artificial eyes, clean digital art, smooth skin, monochromatic coat."
+  }
+}
